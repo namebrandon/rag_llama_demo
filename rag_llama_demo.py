@@ -77,7 +77,6 @@ from llama_index import download_loader
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from llama_index import LangchainEmbedding, ServiceContext
 
-# using the microsoft e5 embedding model
 
 embed_model = LangchainEmbedding(
     HuggingFaceEmbeddings(
